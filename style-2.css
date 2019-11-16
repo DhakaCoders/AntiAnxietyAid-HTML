@@ -290,6 +290,9 @@
 	    height: 640px;
 	    padding-top: 30px;
 	}
+	.fl-advanced-two-grid-wrp ul li:nth-child(6) .fl-adv-two-grid-controller {
+	    padding-top: 0;
+	}
 
 }
 
