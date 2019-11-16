@@ -38,9 +38,6 @@ header.fl-hdr {
 .fl-hdr img{
     width: 100%
 }
-
-
-
 .fl-shipping {
     padding-bottom: 28px;
     background: #fff;
@@ -87,10 +84,7 @@ header.fl-hdr {
     right: 0;
     border-radius: 50px;
     top: 57px;
-}
-
-
- 
+} 
 .special-offer-con-wrp {
     position: relative;
     text-align: center;
@@ -135,12 +129,6 @@ header.fl-hdr {
     vertical-align: baseline;
 }
 
-
-
-
-
-
-
 .fl-content-sec-3-wrp{
     padding: 26px 0 42px;
     background: #fff;
@@ -170,14 +158,6 @@ header.fl-hdr {
 .fl-content-sec-3-wrp p strong{
     font-family: 'SourceSansPro-Bold';
 }
-
-
-
-
-
-
-
-
 .fl-supercharges-block-1 {
     padding-bottom: 22px;
 }
@@ -227,7 +207,6 @@ header.fl-hdr {
     right:36%;
     z-index: 2
 }
-
 .fl-cortisol-block-2 .fl-cortisol-des,
 .fl-supercharges-block-1 .fl-supercharges-des{
 	position: relative;
@@ -277,9 +256,6 @@ header.fl-hdr {
 	width:51.20%;
 	padding: 12px 15px 10px 27px;
 }
-
-
-
 .fl-paired-block-4 .fl-paired-head,
 .fl-managing-block-1 .fl-managing-head,
 .fl-managing-block-1 .fl-managing-head, 
@@ -294,18 +270,9 @@ header.fl-hdr {
     font-family: 'TitilliumWeb-Bold';
 }
 
-
-
-
-
-
-
-
-
 .fl-cortisol-sec .fl-cortisol-block-1{
     padding-bottom: 40px;
 }
-
 .fl-managing-sec{
     background-repeat: no-repeat!important;
     background-size: cover!important;
@@ -338,12 +305,9 @@ header.fl-hdr {
 .fl-cortisol-block-3 .fl-cortisol-img {
    padding-top: 15px;
 }
-
 .fl-cortisol-block-1 .fl-cortisol-des{
     padding: 12px 27px 10px 0;
 }
-
-
 span.fl-txt-line-bg {
     font-family: 'SourceSansPro-Bold';
     display: inline-block;
@@ -403,52 +367,53 @@ span.fl-txt-line-bg em{
 } 
 
 @media(max-width: 1023px){
-.fl-content-sec-3-img {
-    width: 100%;
-    float: left;
-    margin-bottom: 25px;
+    .fl-content-sec-3-img {
+        width: 100%;
+        float: left;
+        margin-bottom: 25px;
+    }
+    .fl-content-sec-3-des {
+        width: 100%;
+        float: left;
+        padding:10px 0 ;
+    }
+    .fl-cortisol-block-2 .fl-cortisol-img,
+    .fl-supercharges-block-1 .fl-supercharges-img {
+        background-image: none!important;
+        position: static;
 
-}
-.fl-content-sec-3-des {
-    width: 100%;
-    float: left;
-    padding:10px 0 ;
-}
-.fl-cortisol-block-2 .fl-cortisol-img,
-.fl-supercharges-block-1 .fl-supercharges-img {
-    background-image: none!important;
-    position: static;
-
-}
-
-.fl-cortisol-block-2 .fl-cortisol-img img,
-.fl-supercharges-block-1 .fl-supercharges-img img{
-    display: inline-block;
-    margin-bottom: 25px;
-}
-.fl-cortisol-block-2 .fl-cortisol-des, 
-.fl-supercharges-block-1 .fl-supercharges-des {
-    width: 100%;
-    padding: 32px 45px 37px 40px;
-    float: left!important;
-}
-.fl-cortisol-block-1 .fl-cortisol-img,
-.fl-cortisol-block-3 .fl-cortisol-img,
-.fl-managing-block-1 .fl-managing-img,
-.fl-managing-block-2 .fl-managing-img,
-.fl-supercharges-block-2 .fl-supercharges-img{
-    width:100%;
-    margin-bottom: 25px;
-}
-.fl-cortisol-block-1 .fl-cortisol-des,
-.fl-cortisol-block-3 .fl-cortisol-des,
-.fl-managing-block-1 .fl-managing-des,
-.fl-managing-block-2 .fl-managing-des,
-.fl-supercharges-block-2 .fl-supercharges-des{
-    width:100%;
-    padding: 0;
-}
-
+    }
+    .fl-cortisol-block-2 .fl-cortisol-img img,
+    .fl-supercharges-block-1 .fl-supercharges-img img{
+        display: inline-block;
+        margin-bottom: 25px;
+    }
+    .fl-cortisol-block-2 .fl-cortisol-des, 
+    .fl-supercharges-block-1 .fl-supercharges-des {
+        width: 100%;
+        padding: 25px;
+        float: left!important;
+    }
+    .fl-cortisol-block-1 .fl-cortisol-img,
+    .fl-cortisol-block-3 .fl-cortisol-img,
+    .fl-managing-block-1 .fl-managing-img,
+    .fl-managing-block-2 .fl-managing-img,
+    .fl-supercharges-block-2 .fl-supercharges-img{
+        width:100%;
+        margin-bottom: 25px;
+    }
+    .fl-cortisol-block-1 .fl-cortisol-des,
+    .fl-cortisol-block-3 .fl-cortisol-des,
+    .fl-managing-block-1 .fl-managing-des,
+    .fl-managing-block-2 .fl-managing-des,
+    .fl-supercharges-block-2 .fl-supercharges-des{
+        width:100%;
+        padding: 0;
+    }
+    .fl-cortisol-block-2 .fl-cortisol-two-part, 
+    .fl-supercharges-block-1 .fl-supercharges-two-part {
+        padding: 15px 0 20px;
+    }
 }
 
 @media(max-width: 991px){
@@ -461,13 +426,20 @@ span.fl-txt-line-bg em{
     h3 {
         font-size: 28px
     }
-
     .fl-shipping h4 {
         font-size: 18px
     }
-
-
-
+    .fl-health-risks-head h2 br,
+    .fl-cortisol-head h2 br,
+    .fl-managing-head h2 br,
+    .fl-supercharges-head h2 br{
+        display: none;
+    }
+    .fl-cortisol-block-2 .fl-cortisol-head, 
+    .fl-managing-block-1 .fl-managing-head, 
+    .fl-supercharges-block-1 .fl-supercharges-head {
+        margin-bottom: 15px;
+    }
 
 }
 
@@ -506,7 +478,10 @@ span.fl-txt-line-bg em{
     .fl-content-sec-3-wrp p {
         margin-bottom: 20px;
     }
-
+    .fl-cortisol-block-2 .fl-cortisol-des, 
+    .fl-supercharges-block-1 .fl-supercharges-des {
+        padding: 15px;
+    }
 }
 
 @media(max-width: 639px){
