@@ -94,7 +94,7 @@ header.fl-hdr {
 .special-offer-con-wrp {
     position: relative;
     text-align: center;
-    padding: 75px 20px 102px;
+    padding: 75px 20px 95px;
     color: #fff;
     z-index: 1;
     margin-left: -15px;
@@ -108,7 +108,7 @@ header.fl-hdr {
     right: 0;
     background-repeat: no-repeat!important;
     background-size: cover!important;
-    background-position: center center!important;
+    background-position: center bottom!important;
     z-index: 2
 }
 .special-offer-dsc{
@@ -211,6 +211,10 @@ header.fl-hdr {
     right: 0;
     left:36%;
     z-index: 2
+}
+.fl-cortisol-block-2 .fl-cortisol-img img,
+.fl-supercharges-block-1 .fl-supercharges-img img: ;{
+    display: none;
 }
 .fl-cortisol-block-2 .fl-cortisol-img{
     background-repeat: no-repeat!important;
@@ -381,12 +385,69 @@ span.fl-txt-line-bg em{
     h5 {
         font-size: 20px
     }
- 
+    .fl-cortisol-block-1 .fl-cortisol-img,
+    .fl-cortisol-block-3 .fl-cortisol-img,
+    .fl-managing-block-1 .fl-managing-img,
+    .fl-managing-block-2 .fl-managing-img,
+    .fl-supercharges-block-2 .fl-supercharges-img{
+        width:45%;
+    }
+    .fl-cortisol-block-1 .fl-cortisol-des,
+    .fl-cortisol-block-3 .fl-cortisol-des,
+    .fl-managing-block-1 .fl-managing-des,
+    .fl-managing-block-2 .fl-managing-des,
+    .fl-supercharges-block-2 .fl-supercharges-des{
+        width:55%;
+    }
 
 } 
 
 @media(max-width: 1023px){
- 
+.fl-content-sec-3-img {
+    width: 100%;
+    float: left;
+    margin-bottom: 25px;
+
+}
+.fl-content-sec-3-des {
+    width: 100%;
+    float: left;
+    padding:10px 0 ;
+}
+.fl-cortisol-block-2 .fl-cortisol-img,
+.fl-supercharges-block-1 .fl-supercharges-img {
+    background-image: none!important;
+    position: static;
+
+}
+
+.fl-cortisol-block-2 .fl-cortisol-img img,
+.fl-supercharges-block-1 .fl-supercharges-img img{
+    display: inline-block;
+    margin-bottom: 25px;
+}
+.fl-cortisol-block-2 .fl-cortisol-des, 
+.fl-supercharges-block-1 .fl-supercharges-des {
+    width: 100%;
+    padding: 32px 45px 37px 40px;
+    float: left!important;
+}
+.fl-cortisol-block-1 .fl-cortisol-img,
+.fl-cortisol-block-3 .fl-cortisol-img,
+.fl-managing-block-1 .fl-managing-img,
+.fl-managing-block-2 .fl-managing-img,
+.fl-supercharges-block-2 .fl-supercharges-img{
+    width:100%;
+    margin-bottom: 25px;
+}
+.fl-cortisol-block-1 .fl-cortisol-des,
+.fl-cortisol-block-3 .fl-cortisol-des,
+.fl-managing-block-1 .fl-managing-des,
+.fl-managing-block-2 .fl-managing-des,
+.fl-supercharges-block-2 .fl-supercharges-des{
+    width:100%;
+    padding: 0;
+}
 
 }
 
@@ -404,12 +465,7 @@ span.fl-txt-line-bg em{
     .fl-shipping h4 {
         font-size: 18px
     }
-    .special-offer-dsc h1 br{
-        display: none;
-    }
-    .special-offer-dsc {
-        padding: 80px 283px 80px 0;
-    }
+
 
 
 
@@ -419,9 +475,7 @@ span.fl-txt-line-bg em{
     .fl-shipping h4 {
         font-size: 16px
     }
-    .special-offer-dsc {
-        padding: 80px 185px 80px 0;
-    }
+
 }
 
 @media(max-width: 767px){
@@ -431,8 +485,8 @@ span.fl-txt-line-bg em{
     p{
        margin-bottom: 20px;
     }
-     h1 {
-        font-size: 28px
+    h1 {
+        font-size: 27px
     }
     h2 {
         font-size: 25px
@@ -446,7 +500,12 @@ span.fl-txt-line-bg em{
     h5 {
         font-size: 18px
     }
- 
+    .special-offer-con-wrp {
+        padding: 40px 20px 70px;
+    }
+    .fl-content-sec-3-wrp p {
+        margin-bottom: 20px;
+    }
 
 }
 
@@ -459,32 +518,33 @@ span.fl-txt-line-bg em{
         width: 50px;
         height: 50px
     }
-    .special-offer-dsc {
-        padding: 55px 0 65px;
-    }   
+.special-offer-con-wrp h5 {
+    margin-bottom: 20px;
+}
 
 }
  
 @media(max-width: 575px){
-    .hdr-logo, .secure-img {
-        display: inline-block;
-        vertical-align: baseline;
+    .hdr-logo{
+        max-width: 100px;
+    }
+    .secure-img {
         max-width: 120px;
     }
-
-
 
 }
 
 @media(max-width: 479px){
-     h1 {
-        font-size: 32px
+
+
+    h1 {
+        font-size: 25px
     }
     h2 {
-        font-size: 28px
+        font-size: 22px
     }
     h3 {
-        font-size: 25px
+        font-size: 21px
     }
 
 
@@ -525,11 +585,7 @@ span.fl-txt-line-bg em{
 }
 
 @media(max-width: 359px){
-    .hdr-logo, .secure-img {
-        display: inline-block;
-        vertical-align: baseline;
-        max-width: 100px;
-    }
+
 }
 
 
