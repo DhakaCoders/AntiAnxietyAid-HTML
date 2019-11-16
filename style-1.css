@@ -238,7 +238,7 @@ header.fl-hdr {
 .fl-supercharges-block-2 {
     padding-bottom: 30px;
 }
-
+.fl-health-risks-head,
 .fl-cortisol-block-1 .fl-cortisol-head,
 .fl-cortisol-block-3 .fl-cortisol-head,
 .fl-managing-block-2 .fl-managing-head,
@@ -248,6 +248,7 @@ header.fl-hdr {
     color:#010101;
     font-family: 'TitilliumWeb-Bold';
 }
+.fl-health-risks-head,
 .fl-cortisol-block-1 .fl-cortisol-head h2,
 .fl-cortisol-block-3 .fl-cortisol-head h2,
 .fl-managing-block-2 .fl-managing-head h2,
@@ -272,8 +273,9 @@ header.fl-hdr {
 
 
 
-
-.fl-managing-block-1 .fl-managing-head, .fl-supercharges-block-1 .fl-supercharges-head {
+.fl-paired-block-4 .fl-paired-head,
+.fl-managing-block-1 .fl-managing-head,
+.fl-supercharges-block-1 .fl-supercharges-head {
     background-repeat: no-repeat !important;
     background-position: center center !important;
     background-size: cover !important;
