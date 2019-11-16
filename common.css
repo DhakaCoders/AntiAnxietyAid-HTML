@@ -20,6 +20,16 @@
     font-style: normal
 }
 @font-face {
+    font-family: 'SourceSansPro-BoldItalic';
+    src: url(assets/fonts/SourceSansPro-BoldItalic/SourceSansPro-BoldItalic.woff2) format('woff2'), 
+         url(assets/fonts/SourceSansPro-BoldItalic/SourceSansPro-BoldItalic.woff) format('woff');
+    font-weight:;
+    font-style: normal
+}
+
+
+
+@font-face {
     font-family: 'TitilliumWeb-Regular';
     src: url(assets/fonts/TitilliumWeb-Regular/TitilliumWeb-Regular.woff2) format('woff2'), 
          url(assets/fonts/TitilliumWeb-Regular/TitilliumWeb-Regular.woff) format('woff');
