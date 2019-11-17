@@ -43,6 +43,14 @@
     font-weight: ;
     font-style: normal
 }
+
+@font-face {
+    font-family: 'TitilliumWeb-SemiBold';
+    src: url(assets/fonts/TitilliumWeb-SemiBold/TitilliumWeb-SemiBold.woff2) format('woff2'), 
+         url(assets/fonts/TitilliumWeb-SemiBold/TitilliumWeb-SemiBold.woff) format('woff');
+    font-weight: ;
+    font-style: normal;
+}
 @font-face {
     font-family: 'TitilliumWeb-SemiBoldItalic';
     src: url(assets/fonts/TitilliumWeb-SemiBoldItalic/TitilliumWeb-SemiBoldItalic.woff2) format('woff2'), 

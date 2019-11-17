@@ -110,9 +110,9 @@ header.fl-hdr {
     z-index: 3
 }
 .special-offer-con-wrp h5 {
-    color:#fff;
     margin-bottom: 24px;
 	font-family: 'TitilliumWeb-SemiBoldItalic';
+    font-family: 'TitilliumWeb-SemiBold';
 }
 .special-offer-con-wrp h1 {
     font-family: 'TitilliumWeb-Bold';
@@ -159,7 +159,7 @@ header.fl-hdr {
     font-family: 'SourceSansPro-Bold';
 }
 .fl-supercharges-block-1 {
-    padding-bottom: 22px;
+    padding-bottom: 24px;
 }
 .fl-cortisol-block-2 .fl-cortisol-head,
 .fl-managing-block-1 .fl-managing-head,
@@ -193,7 +193,7 @@ header.fl-hdr {
     z-index: 2
 }
 .fl-cortisol-block-2 .fl-cortisol-img img,
-.fl-supercharges-block-1 .fl-supercharges-img img: ;{
+.fl-supercharges-block-1 .fl-supercharges-img img{
     display: none;
 }
 .fl-cortisol-block-2 .fl-cortisol-img{
@@ -322,9 +322,9 @@ span.fl-txt-line-bg {
     padding-bottom: 5px;
     color: #000;
 }
-span.fl-txt-line-bg em{
+/*span.fl-txt-line-bg em{
     font-family: 'SourceSansPro-BoldItalic';
-}
+}*/
 
 
 
@@ -381,12 +381,11 @@ span.fl-txt-line-bg em{
     .fl-supercharges-block-1 .fl-supercharges-img {
         background-image: none!important;
         position: static;
-
+        margin-bottom: 25px;
     }
     .fl-cortisol-block-2 .fl-cortisol-img img,
     .fl-supercharges-block-1 .fl-supercharges-img img{
         display: inline-block;
-        margin-bottom: 25px;
     }
     .fl-cortisol-block-2 .fl-cortisol-des, 
     .fl-supercharges-block-1 .fl-supercharges-des {
