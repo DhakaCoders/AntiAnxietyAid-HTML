@@ -3,19 +3,15 @@
     background-position: center center !important;
     background-size: cover !important;
     padding-bottom: 15px;
-    padding-top: 160px;
-    margin-top: 10px;
-    position: relative;
 }
-.fl-linked-low-head{
+.fl-linked-low-head {
     background-repeat: no-repeat !important;
     background-position: center center !important;
     background-size: cover !important;
     padding: 18px 15px 43px;
-    position: absolute;
-    left: 0;
-    right: 0;
-    top: -10px;
+    margin-left: -15px;
+    margin-right: -15px;
+    margin-top: -10px;
 }
 .fl-linked-low-head h2{
 	margin: 0;
@@ -173,18 +169,15 @@
 	background-size: cover !important;
 	background-position: center center !important;
 	padding-bottom: 45px;
-	position: relative;
-	padding-top: 140px;
 }
 .fl-blockquote-head{
     background-repeat: no-repeat !important;
     background-position: center center !important;
     background-size: cover !important;
     padding: 35px 15px 55px;
-    position: absolute;
-    left: 0;
-    right: 0;
-    top: -10px;
+    margin-left: -15px;
+    margin-right: -15px;
+    margin-top: -10px;
 }
 .fl-blockquote-head h2{
 	margin: 0;
@@ -204,7 +197,7 @@
 	margin: 0 !important;
 	display: inline-block;
 	vertical-align: baseline;
-	margin-bottom: 35px !important;
+	margin-bottom: 25px !important;
 	background-color: #fff;
 	-webkit-box-shadow: 5px 5px 0px 0px rgba(201,190,181,1);
     -moz-box-shadow: 5px 5px 0px 0px rgba(201,190,181,1);
@@ -259,8 +252,8 @@
 	.fl-linked-low-head h2 br{
 		display: none;
 	}
-	.fl-linked-low-two-part {
-	    padding-top: 5px;
+	.fl-paired-head h2 br{
+		display: none;
 	}
 	.health-risks-grd-wrp li {
 	    width: 100%;
@@ -312,17 +305,11 @@
 	    width: 100%;
 	    padding: 0 15px;
 	}
-	.fl-linked-low-sec{
-		padding-top: 140px;
-	}
 	.fl-health-risks-head h2 br{
 		display: none;
 	}
 	.fl-adv-mrg-top {
 	    margin-top: -50px;
-	}
-	.fl-blockquote-items-sec-wrp{
-		padding-top: 125px;
 	}
 	.fl-advanced-two-grid-inr {
 	    height: auto;
@@ -345,9 +332,6 @@
 	.show-xs{
 		display: block!important;
 	}
-	.fl-linked-low-sec {
-	    padding-top: 125px;
-	}
 	.fl-adv-mrg-top {
 	    margin-top: -30px;
 	    padding-right: 0;
@@ -355,9 +339,6 @@
 	.fl-advanced-des-wrp {
 	    padding-top: 30px;
 	    padding-bottom: 15px;
-	}
-	.fl-blockquote-items-sec-wrp {
-	    padding-top: 115px;
 	}
 	.dft-blockquote-row-item blockquote em {
 	    padding: 25px 25px 25px 25px;
@@ -400,9 +381,6 @@
 	}
 }
 @media(max-width: 479px){
-	.fl-linked-low-sec {
-	    padding-top: 160px;
-	}
 	.fl-linked-low-head{
 		padding-left: 10px;
 		padding-right: 10px;
@@ -440,6 +418,11 @@
 	.fl-adv-two-grid-img-lft {
 	    height: 235px !important;
 	    width: 100%;
+	}
+	.fl-adv-two-grid-img {
+	    max-width: 235px;
+	    width: 100%;
+	    margin: 0 auto;
 	}
 
 }
