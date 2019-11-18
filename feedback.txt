@@ -1,18 +1,1 @@
-0. Gap ta aktu besi hobe
-- https://www.screencast.com/t/oa1Eqo23gIXj
-1. Ai module ta psd sathe mile ni
-- https://www.screencast.com/t/rXKZx3CA
-2. Gap gulo mile nai
-- https://www.screencast.com/t/yMW4ozlE
-3. Ai gap ta akgu besi hobe
-- https://www.screencast.com/t/5dvn4kXppk
-4. Gap ta aktu besi hobe
-- https://www.screencast.com/t/hLsIDlqC2ypH
-5. Oporer gap ta kom hobe ar niche akta border ar moto dekha jay
-- https://www.screencast.com/t/uaP7UhpklKON
-6. Aro 10px gap besi hobe
-- https://www.screencast.com/t/aG9JTTiIidj
-7. Gap 10px besi hobe
-- https://www.screencast.com/t/k8QI9kG98
-8. Gap 10px besi hobe
-- https://www.screencast.com/t/RZZIIcQm
+
