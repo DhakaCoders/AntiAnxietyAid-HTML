@@ -451,7 +451,7 @@ span.fl-txt-line-bg {
 
 }
 
-@media(max-width: 767px){
+@media(max-width: 767px){ 
     body {
         font-size: 20px;
     }
