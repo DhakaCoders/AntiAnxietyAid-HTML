@@ -516,6 +516,9 @@ span.fl-txt-line-bg {
     .secure-img {
         max-width: 120px;
     }
+    .special-offer-con-wrp h1{
+        line-height: 1.1;
+    }
 
 }
 
@@ -547,10 +550,6 @@ span.fl-txt-line-bg {
     .fl-shipping-col.two_sec span {
         display: block
     }
-
-}
-
-@media(max-width: 359px){
 
 }
 
