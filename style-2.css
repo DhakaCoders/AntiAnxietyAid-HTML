@@ -73,24 +73,26 @@
 
 
 .fl-paired-gaba-sec-wrp{
-	padding-bottom: 40px;
+	padding-bottom: 50px;
 }
 .fl-paired-block-4 .fl-paired-head{
     background-repeat: no-repeat !important;
     background-position: center center !important;
     background-size: cover !important;
-    padding: 20px 15px 30px;
-    border-radius: 8px;
+    padding: 15px 15px 30px;
+    border-radius: 8px 8px 0 0;
     text-align: center;
     color: #fff;
     font-family: 'TitilliumWeb-Bold';
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff;
 }
 .fl-advanced-des-wrp{
 	padding-top: 40px;
 	padding-bottom: 25px;
 }
 .fl-adv-mrg-top {
-    margin-top: -82px;
+    margin-top: -80px;
     padding-right: 40px;
 }
 .fl-advanced-two-grid-wrp{
@@ -241,7 +243,9 @@
 .dft-blockquote-row-item:nth-child(3) blockquote em{
 	padding-right: 48px !important;
 }
-
+.fl-blockquote-items-sec-wrp .dft-blockquote-row-items{
+	padding-top: 5px;
+}
 
 @media(max-width: 1199px){
 	.hide-md{
@@ -310,7 +314,7 @@
 		display: none;
 	}
 	.fl-adv-mrg-top {
-	    margin-top: -50px;
+	    margin-top: -40px;
 	}
 	.fl-advanced-two-grid-inr {
 	    height: auto;
@@ -334,7 +338,7 @@
 		display: block!important;
 	}
 	.fl-adv-mrg-top {
-	    margin-top: -30px;
+	    margin-top: -10px;
 	    padding-right: 0;
 	}
 	.fl-advanced-des-wrp {
@@ -389,9 +393,6 @@
 		padding-left: 10px;
 		padding-right: 10px;
 	}
-	.fl-adv-mrg-top {
-	    margin-top:-25px;
-	}
 	.dft-blockquote-row-item blockquote em {
 	    padding: 25px 15px 25px 15px;
 	}
@@ -416,9 +417,6 @@
 
 
 @media(max-width: 359px){
-	.fl-adv-mrg-top {
-	    margin-top:-20px;
-	}
 	.fl-adv-two-grid-img-lft {
 	    height: 235px !important;
 	    width: 100%;

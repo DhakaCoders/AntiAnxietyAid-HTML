@@ -170,11 +170,13 @@ header.fl-hdr {
     background-position: center center!important;
     background-size: cover!important;
     padding: 20px 15px 30px;
-    border-radius: 8px;
+    border-radius: 8px 8px 0 0;
     text-align: center;
     color:#fff;
     font-family: 'TitilliumWeb-Bold';
     margin-bottom: 30px;
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff;
 }
 
 .fl-cortisol-block-2 .fl-cortisol-two-part,
@@ -224,7 +226,7 @@ header.fl-hdr {
 	margin: 0;
 }
 .fl-supercharges-block-2 {
-    padding-bottom: 30px;
+    padding-bottom: 40px;
 }
 .fl-health-risks-head,
 .fl-cortisol-block-1 .fl-cortisol-head,
@@ -333,8 +335,15 @@ span.fl-txt-line-bg {
 
 
 
-
-
+.fl-cortisol-block-3{
+    padding-top: 15px;
+}
+.fl-cortisol-block-3 .fl-cortisol-two-part{
+    padding-top: 10px;
+}
+.health-risks-grd-sec-wrp{
+    padding-top: 5px;
+}
 @media(max-width: 1199px){
     h1 {
         font-size: 45px
@@ -414,6 +423,9 @@ span.fl-txt-line-bg {
     .fl-cortisol-block-2 .fl-cortisol-two-part, 
     .fl-supercharges-block-1 .fl-supercharges-two-part {
         padding: 15px 0 20px;
+    }
+    .fl-managing-sec{
+        padding-bottom: 65px;
     }
 }
 
@@ -504,6 +516,9 @@ span.fl-txt-line-bg {
     .secure-img {
         max-width: 120px;
     }
+    .special-offer-con-wrp h1{
+        line-height: 1.1;
+    }
 
 }
 
@@ -535,10 +550,6 @@ span.fl-txt-line-bg {
     .fl-shipping-col.two_sec span {
         display: block
     }
-
-}
-
-@media(max-width: 359px){
 
 }
 
