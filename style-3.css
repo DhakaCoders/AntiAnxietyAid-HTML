@@ -239,9 +239,9 @@ span.text-inline-mark-left{
     color: #0055e3;
     font-family: 'SourceSansPro-Semibold';
     padding-bottom: 65px;
-    padding-top: 30px;
-    font-size: 18px;
-    line-height: 22px;
+    padding-top: 40px;
+    font-size: 22px;
+    line-height: 24px;
 }
 .fl-ftr-top-sec ul li a{
     color: #000000;
@@ -290,6 +290,8 @@ span.text-inline-mark-left{
     border-radius: 8px 8px 0 0;
     margin-bottom: 85px;
     padding: 15px 20px 40px;
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff;
 }
 .fl-pkg-sec-bg-hdr h2{
     margin-top: 0;
@@ -729,6 +731,9 @@ span.text-inline-mark-left{
     .fl-sec-entry-hdr h2{
         font-size: 35px;
     }
+    .fl-blockquote-head{
+        padding: 35px 15px 45px;
+    }
 }
 
 
@@ -765,8 +770,16 @@ span.text-inline-mark-left{
     .fl-absolute-grd-1 .fl-absolute-grd-1-two-part{
         padding-top: 5px;
     }
-
-
+    .fl-linked-low-head{
+        padding: 25px 15px 35px;
+    }
+    .fl-sec-entry-hdr,
+    .fl-pkg-sec-bg-hdr{
+        padding: 19px 20px 32px;
+    }
+    .pkg-area-con-bg{
+        padding-bottom: 30px;
+    }
 }
 
 
@@ -820,6 +833,9 @@ span.text-inline-mark-left{
     .rare-root-feature-des-hdr h2,
     .fl-sec-entry-hdr h2 {
         font-size: 26px;
+    }
+    .fl-blockquote-head{
+        padding: 35px 15px 40px;
     }
 
 
