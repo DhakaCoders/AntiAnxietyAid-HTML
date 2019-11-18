@@ -509,6 +509,7 @@ header.fl-hdr {
     margin-left: -15px;
     margin-right: -15px;
     padding: 14px 15px 33px;
+    border: none!important;
 }
 .fl-managing-block-1 .fl-managing-des{
 
