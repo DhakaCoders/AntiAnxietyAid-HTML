@@ -172,6 +172,17 @@
 	background-size: cover !important;
 	background-position: center center !important;
 	padding-bottom: 45px;
+	position: relative;
+}
+.top-wave-img {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom:0;
+    z-index: 1;
+    height: 20px;
+    background: center bottom;
+    background-repeat: repeat-x!important;
 }
 .fl-blockquote-head{
     background-repeat: no-repeat !important;
