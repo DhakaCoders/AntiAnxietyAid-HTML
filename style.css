@@ -503,6 +503,7 @@ header.fl-hdr {
     background-size: cover!important;
     background-position: center bottom!important;
     padding-bottom: 50px; 
+    position: relative;
 }
 .fl-managing-block-1 .fl-managing-head{
     margin-top: -8px;
