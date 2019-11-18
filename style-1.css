@@ -119,10 +119,10 @@ header.fl-hdr {
     margin-bottom: 24px;
     text-shadow: 1px 3px 7px #000;
 }
-.special-offer-con-wrp h1 span{
+.special-offer-con-wrp h1 > span{
 	color:#cb0f0f;
 }
-.special-offer-con-wrp > span {
+.special-offer-dsc > span {
 	font-family: 'TitilliumWeb-Regular';
     font-size: 22px;
     display: inline-block;
