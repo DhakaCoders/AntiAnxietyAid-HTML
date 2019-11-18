@@ -113,6 +113,7 @@ header.fl-hdr {
     margin-bottom: 24px;
 	font-family: 'TitilliumWeb-SemiBoldItalic';
     font-family: 'TitilliumWeb-SemiBold';
+    font-size: 22px;
 }
 .special-offer-con-wrp h1 {
     font-family: 'TitilliumWeb-Bold';
@@ -290,7 +291,7 @@ header.fl-hdr {
 
 }
 .fl-cortisol-sec{
-    padding: 15px 0 57px;
+    padding: 20px 0 57px;
 }
 .fl-managing-des p{
     margin-bottom: 24px;
@@ -376,7 +377,7 @@ span.fl-txt-line-bg {
     .fl-content-sec-3-des {
         width: 100%;
         float: left;
-        padding:10px 0 ;
+        padding:10px 0;
     }
     .fl-cortisol-block-2 .fl-cortisol-img,
     .fl-supercharges-block-1 .fl-supercharges-img {
@@ -452,16 +453,10 @@ span.fl-txt-line-bg {
 
 @media(max-width: 767px){
     body {
-        font-size: 18px;
+        font-size: 20px;
     }
     p{
        margin-bottom: 20px;
-    }
-    h1 {
-        font-size: 27px
-    }
-    h2 {
-        font-size: 25px
     }
     h3 {
         font-size: 22px
@@ -483,7 +478,7 @@ span.fl-txt-line-bg {
         padding: 15px;
     }
     .fl-managing-block-1 .fl-managing-head {
-        padding: 14px 15px 22px;
+        padding: 20px 15px 20px;
     }
 }
 
@@ -513,19 +508,6 @@ span.fl-txt-line-bg {
 }
 
 @media(max-width: 479px){
-
-
-    h1 {
-        font-size: 25px
-    }
-    h2 {
-        font-size: 22px
-    }
-    h3 {
-        font-size: 21px
-    }
-
-
     .fl-shipping-progress-bar {
         margin-top: -10px
     }
@@ -534,10 +516,6 @@ span.fl-txt-line-bg {
         margin-left: -15px;
         margin-right: -15px;
         padding-bottom: 12px
-    }
-    
-    .fl-shipping h4 {
-        font-size: 14px
     }
     
     .fl-shipping:before {
@@ -557,8 +535,6 @@ span.fl-txt-line-bg {
     .fl-shipping-col.two_sec span {
         display: block
     }
-
-
 
 }
 

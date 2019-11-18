@@ -68,6 +68,7 @@
 	font-family: 'SourceSansPro-Bold';
 	text-align: center;
 	margin-top: 20px;
+	font-size: 22px;
 }
 
 
@@ -149,8 +150,8 @@
 .fl-advanced-two-grid-dsc{
 	float: right;
 	width: 56%;
-	padding-left: 20px;
-	padding-right: 24px;
+	padding-left: 22px;
+	padding-right: 22px;
 }
 .fl-advanced-two-grid-dsc p {
     margin-bottom: 15px;
@@ -349,7 +350,10 @@
 	.dft-blockquote-row-item:nth-child(3) blockquote em {
 	    padding-right: 25px !important;
 	}
-	
+	.dft-blockquote-row-item blockquote em,
+	.fl-advanced-two-grid-inr{
+		font-size: 20px;
+	}
 }
 
 
