@@ -273,7 +273,6 @@ header.fl-hdr {
     color: #fff;
     font-family: 'TitilliumWeb-Bold';
 }
-
 .fl-cortisol-sec .fl-cortisol-block-1{
     padding-bottom: 40px;
 }
@@ -282,6 +281,9 @@ header.fl-hdr {
     background-size: cover!important;
     background-position: center bottom!important;
     padding-bottom: 50px; 
+    margin-left: 2px;
+    margin-right: 2px;
+    position: relative;
 }
 .fl-managing-block-1 .fl-managing-head{
     margin-top: -8px;
